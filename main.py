@@ -55,6 +55,5 @@ while mainloop:
 
     if pygame.mouse.get_pressed()[0] == 1:
         print(board[round((pygame.mouse.get_pos()[1] / 5) / 20) - 1][round((pygame.mouse.get_pos()[0] / 5) / 20) - 1])
-    Update()
     Draw()
 pygame.quit()
